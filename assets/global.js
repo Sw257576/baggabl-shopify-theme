@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('[data-menu]').forEach(b=>b.addEventListener('click',()=>document.querySelector('[data-nav]')?.classList.toggle('is-open')));});
